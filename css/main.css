@@ -1,0 +1,103 @@
+#header {
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  position: relative;
+}
+
+#header .nav-menu ul li {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#header .responsive-button {
+  display: none;
+}
+
+#header .responsive-button i {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#header .responsive-menu {
+  position: absolute;
+  top: 100%;
+  right: 5px;
+  background-color: black;
+  width: 50%;
+  margin-top: 2px;
+  display: none;
+}
+
+#header .responsive-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+#header .responsive-menu ul li {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.progress {
+  width: 400px;
+  margin: auto;
+  background-color: #202020;
+  margin-top: 30px;
+  border-radius: 0;
+  height: 50px;
+}
+
+.progress .progress-bar {
+  width: 0%;
+  border-radius: 0;
+  background-color: red;
+  height: 50px;
+}
+
+#accordion {
+  margin: auto;
+}
+
+#accordion button {
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+
+#accordion p {
+  text-align: center;
+  height: 60px;
+  background-color: gray;
+  color: #fff;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  #header .nav-menu {
+    display: none;
+  }
+  #header .responsive-button {
+    display: block;
+  }
+}
+
+@media (min-width: 995px) {
+  #header .responsive-menu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
